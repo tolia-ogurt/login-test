@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">login</string>
+    <string name="phone_number">Phone number</string>
+</resources>
