@@ -10,7 +10,6 @@ import java.security.SecureRandom
 import java.security.cert.CertificateException
 import java.security.cert.X509Certificate
 import javax.inject.Singleton
-import javax.net.ssl.HostnameVerifier
 import javax.net.ssl.SSLContext
 import javax.net.ssl.TrustManager
 import javax.net.ssl.TrustManagerFactory
@@ -48,13 +47,13 @@ internal class NetworkModule {
                     @Throws(CertificateException::class)
                     override fun checkClientTrusted(
                         chain: Array<X509Certificate?>?,
-                        authType: String?
+                        authType: String?,
                     ) = Unit
 
                     @Throws(CertificateException::class)
                     override fun checkServerTrusted(
                         chain: Array<X509Certificate?>?,
-                        authType: String?
+                        authType: String?,
                     ) = Unit
 
                     override fun getAcceptedIssuers(): Array<X509Certificate?> {

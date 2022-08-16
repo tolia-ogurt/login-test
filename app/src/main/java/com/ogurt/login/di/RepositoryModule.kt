@@ -1,7 +1,7 @@
 package com.ogurt.login.di
 
 import com.ogurt.login.repo.LoginRepository
-import com.ogurt.login.service.LoginRepositoryImpl
+import com.ogurt.login.repo.LoginRepositoryImpl
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn

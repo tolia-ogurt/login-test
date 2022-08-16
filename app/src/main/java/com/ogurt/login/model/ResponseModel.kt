@@ -4,4 +4,5 @@ data class ResponseModel(
     val name: String,
     val surName: String,
     val phoneNumber: String,
+    val phoneCode: String,
 )

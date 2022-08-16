@@ -1,4 +1,15 @@
 <resources>
     <string name="app_name">login</string>
     <string name="phone_number">Phone number</string>
+    <string name="password">Password</string>
+    <string name="tips">TIPS</string>
+    <string name="continue_btn">continue</string>
+    <string name="exception">Something went wrong</string>
+    <string name="http_exception_login">wrong login or password</string>
+    <string name="error_internet_connection">Couldn\'t reach server, check your internet connection</string>
+    <string name="error_login_failed">Login failed</string>
+    <string name="surname">Surname</string>
+    <string name="name">Name</string>
+    <string name="profile">Profile</string>
+    <string name="sign_in">Sign In</string>
 </resources>
